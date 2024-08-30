@@ -8,7 +8,7 @@
             "name": "(gdb) Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "$ {Lab0_LabSpeed-Demos}/a.out",
+            "program": "$ {Lab0_LabSpeed-Demos}/c.out",
             "MIMode": "gdb",
             "setupCommands": [
                 {
