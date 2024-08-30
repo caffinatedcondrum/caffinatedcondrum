@@ -1,6 +1,10 @@
  
   #include <stdio.h>
  
+  /// @brief 
+  /// @param argo 
+  /// @param  
+  /// @return 
   int main (int argo,const char:*argV[])
     {printf("Valentine Bauer!\n")
       return 0;}
@@ -13,7 +17,7 @@
 
 
    int main(int argo,const char*argV[])
-  { double distance=10.00,hour=3.0;
+  { double distance=275.5,hour=8.5;
     double speed_miph, speed_mps;
 
     speed_miph=distance/hour;
