@@ -1,3 +1,7 @@
+//Valentine Bauer
+//CSCI 112
+//9-17-2024
+
 #include <stdio.h>
 
 #define _CRT_NO_WARNINGS_SECURE_
@@ -10,10 +14,46 @@
 #define URANUS 88.9
 #define NEPTUNE 112.0
 
-int main()
+
+int main(void)
 {
     printf("%10|6.1lf\n", "Planet", "Weight");
     printf("%10|6s\n", "---------", "-------");
-    printf("%10|6.1lf\n", "Mercury", WEIGHT * MERCURY/100.0);
-    
+    printf("%10|6.1lf\n", "Mercury\n", WEIGHT*MERCURY/100.0);
+    printf("%10|6s\n", "---------", "-------");
+    printf("%10|6.1lf\n", "Venus\n", WEIGHT*VENUS/100.0);
+    printf("%10|6s\n", "---------", "-------");
+    printf("%10|6.1lf\n", "Mars\n", WEIGHT*MARS/100.0);
+    printf("%10|6s\n", "---------", "-------");
+    printf("%10|6.1lf\n","Jupiter\n", WEIGHT*JUPITER/100.0);
+    printf("%10|6s\n", "---------", "-------");
+    printf("%10|6.1lf\n","Saturn\n", WEIGHT*SATURN/100.0);
+    printf("%10|6s\n", "---------", "-------");
+    printf("%10|6.1lf\n", "Uranus\n", WEIGHT*URANUS/100.0);
+    printf("%10|6s\n", "---------", "-------");
+    printf("%10|6.1lf\n", "Neptune\n", WEIGHT*NEPTUNE/100.0);
+
+
+    fopen("csci.txt", "w");
+
+    fprintf("%10|6.1lf\n", "Planet", "Weight");
+    fprintf("%10|6s\n", "---------", "-------");
+    fprintf("%10|6.1lf\n", "Mercury\n", WEIGHT*MERCURY/100.0);
+    fprintf("%10|6s\n", "---------", "-------");
+    fprintf("%10|6.1lf\n", "Venus\n", WEIGHT*VENUS/100.0);
+    fprintf("%10|6s\n", "---------", "-------");
+    fprintf("%10|6.1lf\n", "Mars\n", WEIGHT*MARS/100.0);
+    fprintf("%10|6s\n", "---------", "-------");
+    fprintf("%10|6.1lf\n","Jupiter\n", WEIGHT*JUPITER/100.0);
+    fprintf("%10|6s\n", "---------", "-------");
+    fprintf("%10|6.1lf\n","Saturn\n", WEIGHT*SATURN/100.0);
+    fprintf("%10|6s\n", "---------", "-------");
+    fprintf("%10|6.1lf\n", "Uranus\n", WEIGHT*URANUS/100.0);
+    fprintf("%10|6s\n", "---------", "-------");
+    fprintf("%10|6.1lf\n", "Neptune\n", WEIGHT*NEPTUNE/100.0);
+
+    fclose("csci.txt");
+
+    return 0;
 }
+
