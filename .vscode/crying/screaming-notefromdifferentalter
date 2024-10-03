@@ -1,0 +1,27 @@
+/*Hiiiii so i have no clue who I am. I know i'm not miku or lynn but here is what you missed
+So the prof went over if statements and today
+So we need to do the lab associated with that
+smth like*/
+
+if (blah blah blah)
+{
+    yap 1;
+    yap 2;
+}
+else
+{
+ yapping more;
+ yapping more2;
+}
+ //Then he started talking about switch/cases in C and that goes smth like
+switch (value)
+{
+    case1: yap1; break;
+    case2: yap2; break;
+    -
+    -
+    -
+    -
+    -
+    default; statementn;
+}

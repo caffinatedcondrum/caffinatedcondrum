@@ -1,0 +1,50 @@
+// Valentine Bauer
+// Csci 112
+// 09/18/2024
+#define _CRT_SECURE_NO_WARNINGS
+
+
+#include <stdio.h>
+
+#define twenty 2000
+#define ten 1000
+#define five 500
+#define one 100
+#define quarter 25
+#define dime 10
+#define nickel 5
+#define penny 1
+int main()
+{
+	double tender = 100.0;
+	double cost = 21.17;
+	FILE* changelab;
+
+	fopen(changelab, "changelab.txt", "w");
+
+	int cashback;
+
+	int twenties, tens, fives, ones, quarters, dimes, nickels, pennies;
+	cashback = (int)((tender - cost) * 100.0);
+
+	twenties = cashback / twenty;
+	cashback %= twenty;
+
+	tens = cashback / ten;
+	cashback %= ten;
+	
+	fives = cashback / five;
+	cashback %= five;
+
+	quarters = cashback / quarter;
+	cashback %= quarter;
+
+	dimes = cashback / dime;
+	cashback %= dime;
+
+	nickels = cashback / nickel;
+	cashback %= nickel;
+
+	pennies = cashback / penny;
+	cashback %= penny;
+
