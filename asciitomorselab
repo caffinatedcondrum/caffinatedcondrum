@@ -1,0 +1,51 @@
+#define CRT SECURE NO WARNINGS
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <windows.h>
+
+int main()
+	char ch;
+	printf("Enter text to convert, enter newline when complete:");
+	while ((ch = getchar()) != 0x0A)
+		if (isalpha(ch) || isdigit(ch) Il (ch) 
+			if (isalpha(ch) && islower(ch))
+				ch = toupper(ch);
+		else
+			printf("Entered a non-Morse code compatible character\n");
+			exit(1);
+		switch (ch)
+		case 'A': printf(".-"); Beep(1000, 200); Beep(1000, 400); break;
+		case 'B': printf("-..."); Beep(1000, 400); Beep(1000, 200); Beep(1000, 200); Beep(1000, 200); break;
+		case 'C': printf("-.-."); Beep(1000, 400); Beep(1000, 200); Beep(1000, 400); Beep(1000, 200); break;
+		case 'D': printf("-.."); Beep(1000, 400); Beep(1000, 200); Beep(1000, 200); break;
+		case 'E': printf("."); Beep(1000, 200); break;
+		case 'F': printf("..-."); Beep(1000, 200); Beep(1000, 200); Beep(1000, 400); Beep(1000, 200); break;
+		case 'G': printf("--."); Beep(1000, 400); Beep(1000, 400); Beep(1000, 200); break;
+		case 'H': printf("...."); Beep(1000, 200); Beep(1000, 200); Beep(1000, 200); Beep(1000, 200); break;
+		case 'I': printf(".."); Beep(1000, 200); Beep(1000, 200); break;
+		case 'J': printf(".---"); Beep(1000, 200); Beep(1000, 400); Beep(1000, 400); Beep(1000, 400); break;
+		case 'K': printf("-.-"); Beep(1000, 400); Beep(1000, 200); Beep(1000, 400); break;
+		case 'L': printf(".-.."); Beep(1000, 200); Beep(1000, 400); Beep(1000, 200); Beep(1000, 200); break;
+		case 'M': printf("--"); Beep(1000, 400); Beep(1000, 400); break;
+		case 'N': printf("-."); Beep(1000, 400); Beep(1000, 200); break;
+		case 'O': printf("---"); Beep(1000, 400); Beep(1000, 400); Beep(1000, 400); break;
+		case 'P': printf(".--."); Beep(1000, 200); Beep(1000, 400); Beep(1000, 400); Beep(1000, 200); break;
+		case 'Q': printf("--.-"); Beep(1000, 400); Beep(1000, 400); Beep(1000, 200); Beep(1000, 400); break;
+		case 'R': printf(".-."); Beep(1000, 200); Beep(1000, 400); Beep(1000, 200); break;
+		case 'S': printf("..."); Beep(1000, 200); Beep(1000, 200); Beep(1000, 200); break;
+		case 'T': printf("-"); Beep(1000, 400); break;
+		case 'U': printf("..-"); Beep(1000, 200); Beep(1000, 200); Beep(1000, 400); break;
+		case 'V': printf("...-"); Beep(1000, 200); Beep(1000, 200); Beep(1000, 200); Beep(1000, 400); break;
+		case 'W': printf(".--"); Beep(1000, 200); Beep(1000, 400); Beep(1000, 400); break;
+		case 'X': printf("-..-"); Beep(1000, 400); Beep(1000, 200); Beep(1000, 200); Beep(1000, 400); break;
+		case 'Y': printf("-.--"); Beep(1000, 400); Beep(1000, 200); Beep(1000, 400); Beep(1000, 400); break;
+		case 'Z': printf("--.."); Beep(1000, 400); Beep(1000, 400); Beep(1000, 200); Beep(1000, 200); break;
+		case ' ': printf(" "); Sleep(100); break;
+		default: printf("Not implemented\n");
+putchar( '); Sleep(100);
+
+
+return 0 ;
